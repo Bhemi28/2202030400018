@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geologica";
+    color: #333;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    background: #fff;
+    padding: 1vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #logo a {
+    color: #333;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+header #mid-menu {
+    color:
+        #767676;
+    display: flex;
+    gap: 30px;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+header #mid-menu a:nth-child(4) {
+    color: #333;
+}
+
+header #download-btn {
+    font-size: 1.2vw;
+    padding: 16px 24px;
+    background: #04ddb2;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+
+main {
+    height: min-content;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 6vw;
+}
+
+main #hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+main #hero-title h1 {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+main #hero-title h1 span {
+    color: #04ddb2;
+}
+
+main #hero-title p {
+    line-height: 1.5;
+    font-size: 1.6vw;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+}
+
+main .tour-section {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    column-gap: 28px;
+    row-gap: 28px;
+}
+
+main .box-container {
+    position: relative;
+    padding: 22px;
+    height: 412px;
+    width: 430px;
+    border-radius: 22px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+main .box-container img {
+    width: 100%;
+}
+
+main .box-container .box-text {
+    position: absolute;
+    bottom: 52px;
+    left: 30px;
+}
+
+main #main-download {
+    margin: 8vw;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+main #main-download h1 {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+main #main-download a {
+    margin: 1.5vw;
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 1vw 2vw;
+    background: #04ddb2;
+    transition: all ease 0.5s;
+}
+
+main #main-download a:hover {
+    scale: 1.1;
+}
+
+/* FOOTER */
+
+footer {
+    padding-bottom: 4vw;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-container {
+    height: 34vh;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    line-height: 2.5vw;
+}
+
+footer .footer-container a {
+    color: #767676;
+}
+
+footer .footer-container a:hover {
+    scale: 1.05;
+}
+
+footer .footer-container h4 {
+    margin-bottom: 1.2vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+footer #company h5 {
+    color: #767676;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+footer #company a {
+    color: #333;
+    align-self: flex-start;
+    font-size: 1.5vw;
+    margin-bottom: 1.2vw;
+}
+
+footer #social {
+    display: flex;
+    align-self: flex-start;
+    gap: 12px;
+    font-size: 2vw;
+}
